@@ -32,9 +32,9 @@ nav.tab-nav div{font-size:11px}
 .items .item{width:32%}
 }
 @media (max-width:767px) {
-.container{width:auto}
+.container{width:auto;overflow-y: hidden;}
 .top-logo,.top-call{width:50%}
-.top-logo img{width:70%;position:relative;top:10px;height:auto}
+.top-logo img{width:70%;position:relative;height:auto}
 .footer-logo{display:none}
 .slide img{width:1900px}
 .top-address{display:none}
@@ -62,6 +62,7 @@ nav.tab-nav div{font-size:11px}
 .right h2{position:absolute}
 .round-slider{margin:auto;width:250px;height:250px}
 .left article{width:90%}
+.left-item {width: calc(100% - 20px)}
 button.but-left{transform:rotate(-90deg) translateY(40px);padding:0}
 button.but-right{transform:rotate(90deg) translateY(40px);padding:0}
 .right{padding:0}
@@ -102,7 +103,7 @@ footer .container{display:block}
 .top-call{top:-15px}
 .order form h1{font-size:24px}
 .right h2{top:-11%}
-.order span{font-size:16px}
+.order span{font-size:15px}
 .order form input{width:calc(100% - 15px);padding:9px}
 .order form input[type="submit"]{font-size:25px}
 .quality h2,.partners h2{font-size:30px}
