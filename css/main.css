@@ -15,10 +15,10 @@ body{font-size:15px;font-family:"Roboto Condensed",Arial,Helvetica,sans-serif;ov
 .top-address,.top-call{text-align:center;padding-top:20px;position:absolute;bottom:0}
 .top-call{right:0}
 .top-address{right:30%}
-.top-call a,.top-call span{display:block;font-size:24px;text-transform:uppercase}
+.top-call a,.top-call span{display:block;font-size:20px;text-transform:uppercase}
 .top-call a{font-weight:300;color:#fff;text-decoration:none;background-color:#ff8400;display:inline-block;padding:7px 15px}
 .nav{background-color:#ff8400;margin-top:40px}
-.nav ul{color:#fff;font-size:19px;padding:0;text-align:center;font-weight:300;margin-bottom:0}
+.nav ul{color:#fff;font-size:17px;padding:0;text-align:center;font-weight:300;margin-bottom:0}
 .nav a{color:#fff;text-transform:uppercase;text-decoration:none;display:block;padding:15px 0}
 .nav ul li{display:inline-block;position:relative}
 .nav ul li:hover::after{width:100%}
