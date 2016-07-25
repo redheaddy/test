@@ -46,7 +46,7 @@ body{font-size:15px;font-family:"Roboto Condensed",Arial,Helvetica,sans-serif;ov
 .about .row{display:flex}
 .about .container{padding:55px 0}
 .left>div{display:flex;align-items:stretch;padding:40px 0}
-.left div img{border-radius:50%;margin-right:3%;border:5px solid #fff;box-shadow:0 0 10px rgba(0,0,0,.3);width:30%}
+.left div img{border-radius:50%;margin-right:3%;border:5px solid #fff;box-shadow:0 0 10px rgba(0,0,0,.3);/*width:30%*/}
 .left article{width:66%;font-size:17px;position:relative}
 .left article a{text-transform:uppercase;font-weight:300;font-size:25px;transition:all .3s;background-color:#ff8400;color:#fff;text-decoration:none;position:absolute;bottom:0;padding:10px 15px}
 .left article a:hover{background-color:#ff5200}
