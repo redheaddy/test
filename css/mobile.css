@@ -8,7 +8,7 @@
 .left h2{font-size:30px;}
 .order form input{width:20%}
 }
-@media (max-width:979px) and (min-width:768px) {
+@media (max-width:982px) and (min-width:768px) {
 .container{width:724px}
 .top-call a,.top-call span{font-size:18px}
 .top-call {width: 33%;}
@@ -95,6 +95,7 @@ footer .container div{font-size:21px;width:100%;text-align:center}
 .tabs h2{font-size:25px;font-weight:700}
 footer .container{display:block}
 .it-1 {padding-top: 10%;}
+.markers div span {width: 90%;}
 }
 @media (max-width:500px) {
 .top-call a,.top-call span{font-size:11px}
@@ -104,8 +105,8 @@ footer .container{display:block}
 .order span{font-size:16px}
 .order form input{width:calc(100% - 15px);padding:9px}
 .order form input[type="submit"]{font-size:25px}
-.quality h2{font-size:30px}
-.markers div {font-size: 30px}
+.quality h2,.partners h2{font-size:30px}
+.markers div {font-size: 25px}
 .tabs section h2{font-size:20px}
 .tabs h2{font-size:25px}
 .slide img{width:2000px}
@@ -113,4 +114,9 @@ footer .container{display:block}
 .round-slider{margin:auto;width:200px;height:200px}
 button.but-left{transform:rotate(-90deg) translateY(20px)}
 button.but-right{transform:rotate(90deg) translateY(20px)}
+}
+@media (max-width:350px){
+	.order span {font-size: 15px}
+	.tabs section h2 {font-size: 15px;}
+	.left>img{width:90%}
 }
