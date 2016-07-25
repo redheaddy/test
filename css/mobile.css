@@ -54,7 +54,7 @@ nav.tab-nav div{font-size:11px}
 .order form p{margin-top:0}
 .order form h1{text-transform:uppercase;font-weight:400;font-size:28px;margin-top:0;margin-bottom:5px}
 .about .row{display:flex;flex-direction:column}
-.about .left{order:2;width:100%;padding:0 20px}
+.about .left{order:2;width:calc(100% - 40px);padding:0 20px}
 .about .right{order:1;flex-direction:column;width:100%}
 .about .left div img{display:none}
 .about .left article{width:90%}
@@ -103,21 +103,20 @@ footer .container{display:block}
 .top-call{top:-15px}
 .order form h1{font-size:24px}
 .right h2{top:-11%}
-.order span{font-size:15px}
+.order span{font-size:13px}
 .order form input{width:calc(100% - 15px);padding:9px}
 .order form input[type="submit"]{font-size:25px}
 .quality h2,.partners h2{font-size:30px}
+.left article a{font-size:22px}
 .markers div {font-size: 25px}
-.tabs section h2{font-size:20px}
+.tabs section h2{font-size:14px}
 .tabs h2{font-size:25px}
 .slide img{width:2000px}
-.order span{width:80%;left:10%}
+.order span{width:80%;left:10%;font-size: 15px}
 .round-slider{margin:auto;width:200px;height:200px}
 button.but-left{transform:rotate(-90deg) translateY(20px)}
 button.but-right{transform:rotate(90deg) translateY(20px)}
 }
 @media (max-width:350px){
-	.order span {font-size: 15px}
-	.tabs section h2 {font-size: 15px;}
 	.left>img{width:90%}
 }
