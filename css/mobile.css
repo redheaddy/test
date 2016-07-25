@@ -15,7 +15,7 @@
 .markers div > *
 
 .top-address{display:none}
-.order form h1{font-size:25px}
+.order form h1{font-size:22px}
 .order form{font-size:15px;padding:15px 20px}
 .order form input[type="submit"]{width:17%;font-size:19px;padding:9px;top:1px}
 .nav ul{font-size:12px}
@@ -28,7 +28,8 @@
 .quality .left > *{display:inline-block}
 .footer-logo{display:none}
 .round-1,.round-2{flex:1}
-nav.tab-nav div{font-size:14px}
+nav.tab-nav div{font-size:11px}
+.items .item{width:32%}
 }
 @media (max-width:767px) {
 .container{width:auto}
@@ -91,6 +92,7 @@ footer .container div{font-size:21px;width:100%;text-align:center}
 .partners h2{color:#000;font-size:40px}
 .quality h2{font-size:40px}
 .tabs h2{font-size:25px;font-weight:700}
+footer .container{display:block}
 }
 @media (max-width:500px) {
 .top-call a,.top-call span{font-size:11px}
