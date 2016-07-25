@@ -86,82 +86,62 @@ document.addEventListener("DOMContentLoaded", function() {
   round1.init();
   round2.init();
   slider.init();
-  //табы
-  (function(){
-	  var nav = Array.prototype.slice.call(document.querySelectorAll(".tab-nav div"));
-	  var tabs = Array.prototype.slice.call(document.querySelectorAll(".tabs section"));
-	  var accordHeaders = Array.prototype.slice.call(document.querySelectorAll(".tabs section span"));
-	  console.log(nav);
-	  nav.forEach(function(item,i,arr){
-		 item.addEventListener('click',function(e){
-			console.log(this) ;
-			document.querySelector(".tab-nav div.active").classList.remove("active");
-			this.classList.add("active");
-			document.querySelector(".tabs section.active").classList.remove("active");			
-			tabs[i].classList.add("active");
-		 });
-	  });
-	  accordHeaders.forEach(function(item,i,arr){
-		  item.addEventListener('click',function(e){
-			  if(this.parentNode.classList.contains("active")){
-				this.parentNode.classList.remove("active")
-			  } else if(document.querySelector(".tabs section.active")){
-				  document.querySelector(".tabs section.active").classList.remove("active");
-				  this.parentNode.classList.add("active");
-			  } else {
-				  this.parentNode.classList.add("active");
-			  }
-			  
-			  
-		  });
-	  });
+  (function() {
+    var nav = Array.prototype.slice.call(document.querySelectorAll(".tab-nav div"));
+    var tabs = Array.prototype.slice.call(document.querySelectorAll(".tabs section"));
+    var accordHeaders = Array.prototype.slice.call(document.querySelectorAll(".tabs section h2"));
+    console.log(nav);
+    nav.forEach(function(item, i, arr) {
+      item.addEventListener("click", function(e) {
+        console.log(this);
+        document.querySelector(".tab-nav div.active").classList.remove("active");
+        this.classList.add("active");
+        document.querySelector(".tabs section.active").classList.remove("active");
+        tabs[i].classList.add("active");
+      });
+    });
+    accordHeaders.forEach(function(item, i, arr) {
+      item.addEventListener("click", function(e) {
+        if (this.parentNode.classList.contains("active")) {
+          this.parentNode.classList.remove("active");
+        } else {
+          if (document.querySelector(".tabs section.active")) {
+            document.querySelector(".tabs section.active").classList.remove("active");
+            this.parentNode.classList.add("active");
+          } else {
+            this.parentNode.classList.add("active");
+          }
+        }
+      });
+    });
   })();
-  // мобильное меню
-  (function(){
-	  var trigger = document.querySelector('.nav-icon');
-	  var menu = document.querySelector('.nav ul');
-	  trigger.addEventListener('click',function(e){
-		  if(this.classList.contains('close')){
-			  this.classList.remove('close');
-			  menu.classList.remove('active');
-		  } else {
-			  this.classList.add('close');
-			  menu.classList.add('active');
-		  }
-	  });
+  (function() {
+    var trigger = document.querySelector(".nav-icon");
+    var menu = document.querySelector(".nav ul");
+    trigger.addEventListener("click", function(e) {
+      if (this.classList.contains("close")) {
+        this.classList.remove("close");
+        menu.classList.remove("active");
+      } else {
+        this.classList.add("close");
+        menu.classList.add("active");
+      }
+    });
   })();
-  // модальное окно с большой картинкой
-  (function(){
-	  var modal = document.querySelector('.modal');
-	  var image = document.querySelector('.quality .left>img');
-	  var close = document.querySelector('.modal .icon-close');
-	  var src = image.getAttribute('data-big');
-	  var string = '';
-	  image.addEventListener('click',function(){
-		  string ='<img src="' + src + '" alt="" width="327" height="475">'
-		  modal.innerHTML += string;
-		  modal.classList.add('show');		  
-	  });
-	  modal.addEventListener('click',function(){
-		  this.innerHTML = '';
-		  this.classList.remove('show');
-	  });
+  (function() {
+    var modal = document.querySelector(".modal");
+    var image = document.querySelector(".quality .left>img");
+    var close = document.querySelector(".modal .icon-close");
+    var src = image.getAttribute("data-big");
+    var string = "";
+    image.addEventListener("click", function() {
+      string = '<img src="' + src + '" alt="" width="327" height="475">';
+      modal.innerHTML += string;
+      modal.classList.add("show");
+    });
+    modal.addEventListener("click", function() {
+      this.innerHTML = "";
+      this.classList.remove("show");
+    });
   })();
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
