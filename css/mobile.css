@@ -49,7 +49,7 @@ nav.tab-nav div{font-size:11px}
 .order form,.order form *{transform:skew(0);text-align:center}
 .order form input{display:block;width:calc(100% - 30px);margin-bottom:5px;padding:15px}
 .order form input[type="submit"]{width:100%;margin-top:60px;padding:11px;font-size:30px;color:#000}
-.order span{color:#000;bottom:18%;font-size:18px;width:60%;left:20%}
+.order span{color:#000;bottom:18%;font-size:17px;width:60%;left:20%}
 .order span a{color:#000}
 .order form p{margin-top:0}
 .order form h1{text-transform:uppercase;font-weight:400;font-size:28px;margin-top:0;margin-bottom:5px}
@@ -57,6 +57,7 @@ nav.tab-nav div{font-size:11px}
 .about .left{order:2;width:100%;padding:0 20px}
 .about .right{order:1;flex-direction:column;width:100%}
 .about .left div img{display:none}
+.about .left article{width:90%}
 .round-1,.round-2{flex-direction:row}
 .right h2{position:absolute}
 .round-slider{margin:auto;width:250px;height:250px}
@@ -70,8 +71,8 @@ button.but-right{transform:rotate(90deg) translateY(40px);padding:0}
 .left article a{position:relative;top:20px}
 .quality .left{text-align:center}
 .left>img{width:60%}
-.markers div{flex-direction:column;font-size:40px}
-.markers div img{width:60%;margin-right:8%;margin-bottom:10%;margin-top:10%}
+.markers div{flex-direction:column;font-size:40px;margin:auto}
+.markers div img{width:60%;margin:auto}
 nav.tab-nav{display:none}
 .partners p{padding-bottom:25px;margin-bottom:0}
 .tabs section{position:relative;opacity:1;transform:translateX(0%)}
@@ -93,6 +94,7 @@ footer .container div{font-size:21px;width:100%;text-align:center}
 .quality h2{font-size:40px}
 .tabs h2{font-size:25px;font-weight:700}
 footer .container{display:block}
+.it-1 {padding-top: 10%;}
 }
 @media (max-width:500px) {
 .top-call a,.top-call span{font-size:11px}
@@ -103,7 +105,7 @@ footer .container{display:block}
 .order form input{width:calc(100% - 15px);padding:9px}
 .order form input[type="submit"]{font-size:25px}
 .quality h2{font-size:30px}
-.markers div{font-size:35px}
+.markers div {font-size: 30px}
 .tabs section h2{font-size:20px}
 .tabs h2{font-size:25px}
 .slide img{width:2000px}
