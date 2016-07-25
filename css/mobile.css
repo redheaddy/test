@@ -49,10 +49,10 @@ nav.tab-nav div{font-size:11px}
 .order form,.order form *{transform:skew(0);text-align:center}
 .order form input{display:block;width:calc(100% - 30px);margin-bottom:5px;padding:15px}
 .order form input[type="submit"]{width:100%;margin-top:60px;padding:11px;font-size:30px;color:#000}
-.order span{color:#000;bottom:18%;font-size:20px;width:60%;left:20%}
+.order span{color:#000;bottom:18%;font-size:18px;width:60%;left:20%}
 .order span a{color:#000}
 .order form p{margin-top:0}
-.order form h1{text-transform:uppercase;font-weight:400;font-size:30px;margin-top:0;margin-bottom:5px}
+.order form h1{text-transform:uppercase;font-weight:400;font-size:28px;margin-top:0;margin-bottom:5px}
 .about .row{display:flex;flex-direction:column}
 .about .left{order:2;width:100%;padding:0 20px}
 .about .right{order:1;flex-direction:column;width:100%}
