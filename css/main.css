@@ -46,13 +46,13 @@ body{font-size:15px;font-family:"Roboto Condensed",Arial,Helvetica,sans-serif;ov
 .about .row{display:flex}
 .about .container{padding:55px 0}
 .left>div{display:flex;align-items:stretch;padding:40px 0}
-.left div img{border-radius:50%;margin-right:3%;border:5px solid #fff;box-shadow:0 0 10px rgba(0,0,0,.3)}
-.left article{width:65%;font-size:17px;position:relative}
+.left div img{border-radius:50%;margin-right:3%;border:5px solid #fff;box-shadow:0 0 10px rgba(0,0,0,.3);width:30%}
+.left article{width:66%;font-size:17px;position:relative}
 .left article a{text-transform:uppercase;font-weight:300;font-size:25px;transition:all .3s;background-color:#ff8400;color:#fff;text-decoration:none;position:absolute;bottom:0;padding:10px 15px}
 .left article a:hover{background-color:#ff5200}
-.left h2{margin-top:0;font-size:30px;font-weight:400;text-transform:uppercase}
+.left h2{margin-top:0;font-size:25px;font-weight:400;text-transform:uppercase}
 .right{display:flex;flex-direction:column;justify-content:space-between;padding:15px}
-.right h2{text-transform:uppercase;font-size:32px;font-weight:400;text-align:center;margin-top:0}
+.right h2{text-transform:uppercase;font-size:30px;font-weight:400;text-align:center;margin-top:0}
 .round-slider img{width:100%;height:auto;border-radius:50%;transition:transform .45s linear}
 .round-slider{align-self:center;display:flex;flex-direction:row;border-radius:50%;overflow:hidden;border:7px solid #fff;box-shadow:0 0 10px rgba(0,0,0,.3)}
 .round-1,.round-2{display:flex;flex-direction:column;align-content:center;padding:25px 0}
@@ -64,6 +64,7 @@ button.but-right{transform:rotate(180deg)}
 .markers .it-3{padding-bottom:0}
 .left img{height:auto}
 .markers div img{border:none;box-shadow:none;width:22%;margin-right:8%;height:auto}
+.markers div span{display:block;width:70%}
 .markers div{padding-bottom:35px;margin-left:9%;display:flex;flex-direction:row;align-items:center;color:#fff;font-size:21px;font-weight:300;font-style:italic}
 .quality h2,.partners h2{text-transform:uppercase;color:#fff;font-size:35px;font-weight:400;padding:40px;text-align:center;margin:0}
 .partners header{background-color:#fdc029}
