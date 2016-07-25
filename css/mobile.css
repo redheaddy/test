@@ -6,13 +6,13 @@
 .order form input[type="submit"]{width:30%}
 .top-call a,.top-call span{font-size:25px}
 .left h2{font-size:30px;}
+.order form input{width:20%}
 }
 @media (max-width:979px) and (min-width:768px) {
 .container{width:724px}
 .top-call a,.top-call span{font-size:18px}
 .top-call {width: 33%;}
 .right h2 {font-size: 25px}
-.markers div > *
 
 .top-address{display:none}
 .order form h1{font-size:22px}
@@ -76,7 +76,7 @@ nav.tab-nav{display:none}
 .partners p{padding-bottom:25px;margin-bottom:0}
 .tabs section{position:relative;opacity:1;transform:translateX(0%)}
 .tabs section .item{width:49%}
-.tabs section h2{display:block;background-color:#fdc029;width:100%;margin-left:-20px;font-size:25px;text-transform:uppercase;font-weight:700;padding:20px;border-top:2px solid #000;position:relative;cursor:pointer}
+.tabs section h2{display:block;background-color:#fdc029;width:100%;margin-left:-20px;font-size:20px;text-transform:uppercase;font-weight:700;padding:20px;border-top:2px solid #000;position:relative;cursor:pointer}
 .tabs section h2::after{content:url(../img/tabs-caret.png);position:absolute;transition:all .5s;right:10px;top:calc(50% - 15px);height:20px}
 .tabs section.active h2::after{transform:rotate(180deg)}
 .items{max-height:0;overflow:hidden;transition:all .5s}
