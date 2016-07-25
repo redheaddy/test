@@ -7,9 +7,11 @@
 .top-call a,.top-call span{font-size:25px}
 .left h2{font-size:30px;}
 .order form input{width:20%}
+nav.tab-nav div{font-size:22px}
+.tab-nav div.active::after{content:'';border:20px solid transparent;border-top:20px solid #fdc029;position:absolute;left:calc(50% - 10px);z-index:1;bottom:-33%}
 }
 @media (max-width:982px) and (min-width:768px) {
-.container{width:724px}
+.container{width:724px;overflow: hidden;}
 .top-call a,.top-call span{font-size:18px}
 .top-call {width: 33%;}
 .right h2 {font-size: 25px}
@@ -23,15 +25,16 @@
 .order{bottom:6%}
 .about .row{display:flex;flex-direction:column}
 .about .left{order:2;width:100%}
-.about .right{order:1;flex-direction:row;width:100%}
+.about .right{order:1;flex-direction:row;width:100%;padding-right: 0;padding-left: 0;}
 .quality .left{display:block;padding-bottom:40px}
 .quality .left > *{display:inline-block}
 .footer-logo{display:none}
 .round-1,.round-2{flex:1}
-nav.tab-nav div{font-size:11px}
+nav.tab-nav div{font-size:15px}
 .items .item{width:32%}
 }
 @media (max-width:767px) {
+body{font-size:18px}
 .container{width:auto;overflow-y: hidden;}
 .top-logo,.top-call{width:50%}
 .top-logo img{width:70%;position:relative;height:auto}
@@ -57,12 +60,12 @@ nav.tab-nav div{font-size:11px}
 .about .left{order:2;width:calc(100% - 40px);padding:0 20px}
 .about .right{order:1;flex-direction:column;width:100%}
 .about .left div img{display:none}
-.about .left article{width:90%}
+.about .left article{width:100%}
 .round-1,.round-2{flex-direction:row}
 .right h2{position:absolute}
 .round-slider{margin:auto;width:250px;height:250px}
 .left article{width:90%}
-.left-item {width: calc(100% - 20px)}
+.left-item {width: 100%}
 button.but-left{transform:rotate(-90deg) translateY(40px);padding:0}
 button.but-right{transform:rotate(90deg) translateY(40px);padding:0}
 .right{padding:0}
@@ -73,12 +76,12 @@ button.but-right{transform:rotate(90deg) translateY(40px);padding:0}
 .quality .left{text-align:center}
 .left>img{width:60%}
 .markers div{flex-direction:column;font-size:40px;margin:auto}
-.markers div img{width:60%;margin:auto}
+.markers div img{width:40%;margin:auto}
 nav.tab-nav{display:none}
 .partners p{padding-bottom:25px;margin-bottom:0}
 .tabs section{position:relative;opacity:1;transform:translateX(0%)}
 .tabs section .item{width:49%}
-.tabs section h2{display:block;background-color:#fdc029;width:100%;margin-left:-20px;font-size:20px;text-transform:uppercase;font-weight:700;padding:20px;border-top:2px solid #000;position:relative;cursor:pointer}
+.tabs section h2{display:block;text-align:left;font-size: 22px;;background-color:#fdc029;width:100%;margin-left:-20px;text-transform:uppercase;font-family:'Conv_pfdintextcondpro-medium';padding:20px;border-top:2px solid #000;position:relative;cursor:pointer}
 .tabs section h2::after{content:url(../img/tabs-caret.png);position:absolute;transition:all .5s;right:10px;top:calc(50% - 15px);height:20px}
 .tabs section.active h2::after{transform:rotate(180deg)}
 .items{max-height:0;overflow:hidden;transition:all .5s}
@@ -96,27 +99,28 @@ footer .container div{font-size:21px;width:100%;text-align:center}
 .tabs h2{font-size:25px;font-weight:700}
 footer .container{display:block}
 .it-1 {padding-top: 10%;}
-.markers div span {width: 90%;}
+.markers div span {width: 90%;padding-top: 7%;}
+.left h2{font-size:30px}
 }
 @media (max-width:500px) {
 .top-call a,.top-call span{font-size:11px}
 .top-call{top:-15px}
-.order form h1{font-size:24px}
+.order form h1{font-size:22px}
+.order form p {font-size:19px;}
 .right h2{top:-11%}
 .order span{font-size:13px}
 .order form input{width:calc(100% - 15px);padding:9px}
 .order form input[type="submit"]{font-size:25px}
-.quality h2,.partners h2{font-size:30px}
+.quality h2, .partners h2 {font-size: 30px;padding-left: 0;padding-right: 0;}
 .left article a{font-size:22px}
 .markers div {font-size: 25px}
-.tabs section h2{font-size:14px}
 .tabs h2{font-size:25px}
 .slide img{width:2000px}
-.order span{width:80%;left:10%;font-size: 15px}
+.order span{width:80%;left:10%;font-size: 16px}
 .round-slider{margin:auto;width:200px;height:200px}
 button.but-left{transform:rotate(-90deg) translateY(20px)}
 button.but-right{transform:rotate(90deg) translateY(20px)}
 }
 @media (max-width:350px){
-	.left>img{width:90%}
+	.left>img{width:65%}
 }
