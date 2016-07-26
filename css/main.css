@@ -1,24 +1,7 @@
-@font-face {
-	font-family: 'Conv_pfdintextcondpro-medium';
-	src: url('/fonts/pfdintextcondpro-medium.eot');
-	src: local('☺'), url('/fonts/pfdintextcondpro-medium.woff') format('woff'), url('/fonts/pfdintextcondpro-medium.ttf') format('truetype'), url('/fonts/pfdintextcondpro-medium.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Conv_pfdintextcondpro-regular';
-	src: url('/fonts/pfdintextcondpro-regular.eot');
-	src: local('☺'), url('/fonts/pfdintextcondpro-regular.woff') format('woff'), url('/fonts/pfdintextcondpro-regular.ttf') format('truetype'), url('/fonts/pfdintextcondpro-regular.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Conv_pfdintextcondpro-lightital';
-	src: url('/fonts/pfdintextcondpro-lightital.eot');
-	src: local('☺'), url('/fonts/pfdintextcondpro-lightital.woff') format('woff'), url('/fonts/pfdintextcondpro-lightital.ttf') format('truetype'), url('/fonts/pfdintextcondpro-lightital.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
+@font-face{font-family:'Conv_pfdintextcondpro-medium';src:url(/fonts/pfdintextcondpro-medium.eot);src:local(☺),url(/fonts/pfdintextcondpro-medium.woff) format("woff"),url(/fonts/pfdintextcondpro-medium.ttf) format("truetype"),url(/fonts/pfdintextcondpro-medium.svg) format("svg");font-weight:400;font-style:normal}
+@font-face{font-family:'Conv_pfdintextcondpro-regular';src:url(/fonts/pfdintextcondpro-regular.eot);src:local(☺),url(/fonts/pfdintextcondpro-regular.woff) format("woff"),url(/fonts/pfdintextcondpro-regular.ttf) format("truetype"),url(/fonts/pfdintextcondpro-regular.svg) format("svg");font-weight:400;font-style:normal}
+@font-face{font-family:'Conv_pfdintextcondpro-lightital';src:url(/fonts/pfdintextcondpro-lightital.eot);src:local(☺),url(/fonts/pfdintextcondpro-lightital.woff) format("woff"),url(/fonts/pfdintextcondpro-lightital.ttf) format("truetype"),url(/fonts/pfdintextcondpro-lightital.svg) format("svg");font-weight:400;font-style:normal}
+@font-face{font-family:'Conv_pfdintextcondpro-thin';src:url(/fonts/pfdintextcondpro-thin.eot);src:local(☺),url(/fonts/pfdintextcondpro-thin.woff) format("woff"),url(/fonts/pfdintextcondpro-thin.ttf) format("truetype"),url(/fonts/pfdintextcondpro-thin.svg) format("svg");font-weight:400;font-style:normal}
 body{font-size:18px;font-family:'Conv_pfdintextcondpro-regular',Sans-Serif;overflow-x:hidden}
 .container{width:940px;margin:0 auto;padding:0 20px}
 .row>*{display:inline-block}
@@ -37,7 +20,7 @@ body{font-size:18px;font-family:'Conv_pfdintextcondpro-regular',Sans-Serif;overf
 .top-address{right:30%}
 .top-call a,.top-call span{display:block;font-size:20px;text-transform:uppercase}
 .top-call a{font-weight:300;color:#fff;text-decoration:none;background-color:#ff8400;display:inline-block;padding:7px 15px}
-.nav{background-color:#ff8400;margin-top:40px}
+.nav{background-color:#ff8400;margin-top:40px;font-family:'Conv_pfdintextcondpro-thin'}
 .nav ul{color:#fff;font-size:22px;padding:0;text-align:center;margin-bottom:0}
 .nav a{color:#fff;text-transform:uppercase;text-decoration:none;display:block;padding:15px 0}
 .nav ul li{display:inline-block;position:relative}
@@ -66,7 +49,7 @@ body{font-size:18px;font-family:'Conv_pfdintextcondpro-regular',Sans-Serif;overf
 .about .row{display:flex}
 .about .container{padding:55px 0}
 .left>div{display:flex;align-items:stretch;padding:40px 0}
-.left div img{border-radius:50%;margin-right:3%;border:5px solid #fff;box-shadow:0 0 10px rgba(0,0,0,.3);/*width:30%*/}
+.left div img{border-radius:50%;margin-right:3%;border:5px solid #fff;box-shadow:0 0 10px rgba(0,0,0,.3)}
 .left article{width:66%;position:relative}
 .left article a{text-transform:uppercase;font-weight:300;font-size:25px;transition:all .3s;background-color:#ff8400;color:#fff;text-decoration:none;position:absolute;bottom:0;padding:10px 15px}
 .left article a:hover{background-color:#ff5200}
@@ -88,8 +71,8 @@ button.but-right{transform:rotate(180deg)}
 .markers div span{display:block;width:70%}
 .markers div{padding-bottom:35px;margin-left:9%;display:flex;flex-direction:row;align-items:center;color:#fff;font-size:26px;font-family:'Conv_pfdintextcondpro-lightital'}
 .quality h2,.partners h2{text-transform:uppercase;color:#fff;font-size:35px;font-weight:400;padding:40px;text-align:center;margin:0}
-.partners h2 {padding-bottom:30px}
-.quality h2 {padding-bottom:50px}
+.partners h2{padding-bottom:30px}
+.quality h2{padding-bottom:50px}
 .partners header{background-color:#fdc029}
 .partners p{font-size:22px;font-family:'Conv_pfdintextcondpro-lightital';text-align:center;margin-top:0;margin-bottom:50px}
 nav.tab-nav div{flex-grow:1;text-align:center;font-size:20px;font-family:'Conv_pfdintextcondpro-medium';transition:all .3s;text-transform:uppercase;padding:15px 15px 25px;position:relative;cursor:pointer}
@@ -108,8 +91,7 @@ footer a{display:block;color:#fff}
 footer .container div{flex:1}
 .phone span{display:block;text-align:right;text-transform:uppercase}
 .modal{position:fixed;width:100%;height:100%;background:rgba(0,0,0,.2);top:0;display:none;z-index:5}
-
 .modal img{margin:auto;border:8px solid #fff;box-shadow:0 0 10px rgba(0,0,0,0.8);width:auto;height:70%}
-.modal.show{display:flex;cursor:zoom-out;cursor:-moz-zoom-out;cursor:-webkit-zoom-out;background-color:rgba(0, 0, 0, 0.80)}
+.modal.show{display:flex;cursor:zoom-out;cursor:-moz-zoom-out;cursor:-webkit-zoom-out;background-color:rgba(0,0,0,0.80)}
 .zoom{cursor:zoom-in;cursor:-moz-zoom-in;cursor:-webkit-zoom-in}
 .c1{text-align:center}
