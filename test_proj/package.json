@@ -1,0 +1,22 @@
+{
+  "name": "test_proj",
+  "version": "1.0.0",
+  "description": "test gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redheaddy/test.git"
+  },
+  "author": "ola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redheaddy/test/issues"
+  },
+  "homepage": "https://github.com/redheaddy/test#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
