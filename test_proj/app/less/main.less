@@ -1,0 +1,17 @@
+@bg-path: "logo-less.png";
+@bg-color: #1d365d;
+@color:red;
+
+@import "path.less";
+@import "libs.min.less";
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+	color:@color;
+}
+
+body {
+    background: @bg-color url(@bg-path) 50% 25% no-repeat;
+}

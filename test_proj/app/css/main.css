@@ -1,0 +1,16 @@
+@import url("app/libs/magnific-popup/dist/magnific-popup.css");
+html {
+  font-size: 10px;
+}
+html body {
+  font-size: 20px;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: red;
+}
+body {
+  background: #1d365d url("logo-less.png") 50% 25% no-repeat;
+}
